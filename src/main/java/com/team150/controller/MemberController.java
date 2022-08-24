@@ -18,5 +18,5 @@ public class MemberController {
 		return "/member/join";
 	}
 	
-	// TODO pom.xml 메이븐 추가했고 bean 설정해줘야함
+	
 }
