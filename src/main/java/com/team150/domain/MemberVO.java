@@ -4,12 +4,22 @@ public class MemberVO {
 
 	private int memberSeq; 					/* 회원번호 */
 	
+	private String memberId; 					/* 회원아이디 */
+	
 	private String memberName; 				/* 회원이름 */
 	
 	// TODO 비밀번호는 임시로 암호화하지 않고 저장함 
 	private String memeberPw;				/* 회원비밀번호 */
 	
 	private String memberEmail; 			/* 회원이메일 */
+
+	public String getMemberId() {
+		return memberId;
+	}
+
+	public void setMemberId(String memberId) {
+		this.memberId = memberId;
+	}
 
 	public int getMemberSeq() {
 		return memberSeq;
